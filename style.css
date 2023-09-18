@@ -1,0 +1,101 @@
+#btn1 {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 165, 11, 0.4);
+    background: rgb(0, 180, 63);
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(0, 181, 84) 0%, rgb(0, 182, 91) 100%);
+}
+
+button:active {
+    transform: translate(0em, 0.2em);
+}
+
+
+#btn2 {
+
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgb(216, 0, 0);
+    color: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+button:active {
+    transform: translate(0em, 0.2em);
+}
+
+
+#btn3 {
+
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to bottom, #1b1c3f, #4a4e91);
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 28px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: button-shimmer 2s infinite;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.beautiful-button:hover {
+    background: linear-gradient(to bottom, #2c2f63, #5b67b7);
+    animation: button-particles 1s ease-in-out infinite;
+    transform: translateY(-2px);
+}
+
+.beautiful-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@keyframes button-shimmer {
+    0% {
+        background-position: left top;
+    }
+
+    100% {
+        background-position: right bottom;
+    }
+}
+
+
+@keyframes button-particles {
+    0% {
+        background-position: left top;
+    }
+
+    100% {
+        background-position: right bottom;
+    }
+}
+
+div{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#timer{
+    font-size: 80px;
+}
